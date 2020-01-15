@@ -169,6 +169,7 @@ const data = [
     paragraph1.textContent = articleObject.firstParagraph;
     paragraph2.textContent = articleObject.secondParagraph;
     paragraph3.textContent = articleObject.thirdParagraph;
+    expandButton.textContent = "click to expand";
 
 
     //Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
